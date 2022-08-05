@@ -1,0 +1,322 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+  font-family: 'League Spartan', sans-serif;
+  color: #161515;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Header */
+
+.header {
+  background: #f8f8f8;
+  height: 900px;
+}
+.container {
+  /* width: 100%; */
+  /* padding: 104px 133px 168px 133px; */
+
+  max-width: 67.95rem;
+  min-width: 18.75rem;
+  width: 95%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+}
+.header-left {
+  margin-top: 104px;
+}
+
+.header-left__text {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 186%;
+}
+
+.header-left__title {
+  margin-top: 53px;
+  margin-bottom: 43px;
+
+  font-weight: 300;
+  font-size: 250px;
+  line-height: 230px;
+  color: #272727;
+}
+
+.header-left__desc {
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 155%;
+  margin-bottom: 61px;
+}
+.header-buy {
+  display: flex;
+}
+
+.header-buy__block {
+  display: block;
+
+  width: 278px;
+  height: 82px;
+  background-color: #161515;
+  text-align: center;
+  line-height: 82px;
+}
+
+.header-buy__block p {
+  font-weight: 300;
+  font-size: 32px;
+  text-align: center;
+  color: #272727;
+
+  height: 82px;
+  line-height: 82px;
+  margin-right: 0;
+}
+
+.header-buy__block--white {
+  width: 143px;
+  background-color: #fff;
+}
+
+.header-buy__link {
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 29px;
+
+  color: #ffffff;
+}
+/* .header-right {
+}
+.header-right__img {
+} */
+
+/* Header */
+
+/* Main */
+
+.main-content {
+  margin-top: 43px;
+}
+
+.main-content--container {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-content__text {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 186%;
+  text-align: center;
+  color: #000000;
+}
+
+.main-content__title {
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 112.5%;
+  text-align: center;
+  color: #000000;
+}
+
+.list__item {
+  width: 496px;
+  text-align: center;
+  margin-top: 85px;
+}
+
+.list__item:last-child .list__img {
+  margin-top: 65px;
+}
+
+.list__wrap {
+  height: 630px;
+  background: #f8f8f8;
+}
+
+.list__img {
+  margin-top: 110px;
+}
+
+.list__title {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 29px;
+  text-align: center;
+  color: #000000;
+  margin-top: 67px;
+  margin-left: 17px;
+}
+
+.list__desc {
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 155%;
+  text-align: center;
+  color: #161515;
+  margin-top: 17px;
+}
+
+.main-block {
+  margin-top: 60px;
+  color: #161515;
+  width: 515px;
+  height: 231px;
+}
+
+.main-block__title {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 186%;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.main-block__line {
+  width: 178.03px;
+  height: 0px;
+  border-bottom: 1px solid #707070;
+  margin-left: 10.5rem;
+}
+
+.main-block__desc {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 170%;
+  text-align: center;
+  margin-top: 50px;
+  padding-bottom: 142px;
+}
+
+.main-block__link {
+  color: #bb8b5d;
+  text-decoration: none;
+}
+
+/* Main */
